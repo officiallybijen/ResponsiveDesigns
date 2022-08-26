@@ -1,0 +1,33 @@
+.custom-bg-gold{
+    background-color: #EAC070;
+}
+.custom-text-gold{
+    color: #EAC070;
+}
+
+.no-space{
+    padding: 0;
+    margin: 0;
+}
+
+.custom-bg-black{
+    background: rgba(0,0,0,0.9);
+}
+
+.custom-bg-grey{
+    background: #F5F5F5;
+}
+
+img{
+    max-width: 100%;
+}
+
+.custom-column-reverse{
+        flex-direction: column;
+    }
+
+@media (max-width:767px){
+    #col-rev{
+        flex-direction: column-reverse;
+    }
+}
