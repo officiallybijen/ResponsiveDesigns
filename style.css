@@ -1,0 +1,274 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #A7D1EF; /* temporary */ 
+}
+html,body {
+    height: 100%;
+    font-size: 62.5%;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url("font/BebasNeue-Regular.ttf");
+    }
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('font/ProximaNova-Regular.otf');
+}
+
+.main {
+    background-color: #A7D1EF;
+    /* background-image: url("img/girl.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 70%; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 10em;
+    padding-top: 15em;
+}
+.img-container{
+    position: relative;
+    width: 100%;
+    height: 180px;
+    align-self: flex-end;
+    margin-top: 135px;
+}
+
+.banner-img{
+    width: 90%;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.heading{
+    padding-top: 10px;
+    line-height: 16px;
+    font-size: 8rem;
+    line-height: 68px;
+    color: #353B7D;
+}
+
+.sub-heading{
+    max-width: 55rem;
+    margin-top: 5.1rem;
+    font-size: 6rem;
+    line-height: 5.7rem;
+    color: #FFFFFF;
+    padding-bottom: 3.8rem;
+
+}
+
+.msg , .msg2{
+    font-size: 18px;
+    line-height: 2.4rem;
+    color: #FFFFFF;
+    font-family: 'Proxima Nova';
+}
+.msg{
+    max-width: 100%;
+}
+.msg2{
+    margin-top: 1.5rem;
+}
+
+.brand-name{
+    color: #F3453B;
+    margin-left: 5px;
+}
+
+.tap{
+    margin-left: 5px;
+}
+
+@media (max-width:2560px){
+    .content{
+        padding-left: 12rem;
+    }
+    .banner-img{
+        width: 90%;
+    }
+    .heading{
+        padding-top: 20rem;
+        line-height: 16px;
+        font-size: 20rem;
+        line-height: 68px;
+    }
+    .sub-heading{
+        margin-top: 14rem;
+        font-size: 12rem;
+        line-height: 11.7rem;
+        padding-bottom: 3.8rem;
+    }
+    .msg,.msg2{
+        font-size: 3.4rem;
+        line-height: 3rem;
+    }
+    .msg{
+        margin-top: 10rem;
+        margin-bottom: 4rem;
+    }
+}
+
+@media (max-width:1440px){
+    .content{
+        padding-left: 10rem;
+    }
+    .banner-img{
+        width: 90%;
+    }
+    .heading{
+        padding-top: 15rem;
+        line-height: 16px;
+        font-size: 11rem;
+        line-height: 68px;
+    }
+    .sub-heading{
+        margin-top: 5rem;
+        font-size: 9rem;
+        line-height: 7.7rem;
+        padding-bottom: 2rem;
+        max-width: 40rem;
+    }
+    .msg,.msg2{
+        font-size: 2.4rem;
+        line-height: 3rem;
+    }
+    .msg{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media (max-width:1024px){
+    .content{
+        padding-left: 8rem;
+    }
+    .banner-img{
+        width: 90%;
+    }
+    .heading{
+        padding-top: 10rem;
+        line-height: 16px;
+        font-size: 8rem;
+        line-height: 68px;
+    }
+    .sub-heading{
+        margin-top: 5rem;
+        font-size: 6rem;
+        line-height: 5rem;
+        padding-bottom: 2rem;
+        max-width: 27rem;
+    }
+    .msg,.msg2{
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+    .msg{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+}
+
+
+@media (max-width:768px){
+    .content{
+        padding-left: 3rem;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .heading{
+        padding-top: 0rem;
+        line-height: 16px;
+        font-size: 6rem;
+        line-height: 5rem;
+    }
+    .sub-heading{
+        margin-top: 3rem;
+        font-size: 5rem;
+        line-height: 4.5rem;
+        padding-bottom: 0rem;
+        max-width: 23rem;
+    }
+    .msg,.msg2{
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+    .msg{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media (max-width:425px){
+    .main{
+        flex-direction: column;
+    }
+    .content{
+        padding-inline: 2.5rem;
+    }
+    .banner-img{
+        width: 90%;
+    }
+    .heading{
+        padding-top: 16rem;
+        font-size: 6rem;
+    }
+    .sub-heading{
+        margin-top: 5rem;
+        font-size: 5rem;
+        line-height: 4.7rem;
+        padding-bottom: 2rem;
+        max-width: 40rem;
+    }
+    .msg,.msg2{
+        font-size: 1.7rem;
+        line-height: 2rem;
+    }
+    .msg{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .msg2{
+        padding-bottom: 25rem;
+    }
+}
+
+
+@media (max-width:375px){
+    .heading{
+        padding-top: 16rem;
+    }
+    .msg2{
+        padding-bottom: 20rem;
+    }
+}
+
+
+
+
+/* @media(max-width:700px){
+    .main{
+        flex-direction: row;
+    }
+}
+
+@media (max-width:425px){
+    .img-container{
+        margin-top: 250px;
+    }
+} */
