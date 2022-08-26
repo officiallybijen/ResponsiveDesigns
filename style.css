@@ -1,0 +1,453 @@
+:root{
+    --custompink: rgba(238,209,199,0.45);
+    --custombrown: #D4410E;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+
+
+.header{
+    margin-inline: auto;
+    width: max(20%,15em);
+    padding: 2em 0rem;
+}
+
+.header>img{
+    width: 100%
+
+}
+
+.navbar{
+    border-top: 0.5px solid #D0D0D0;
+    padding-left: 2rem;
+}
+
+
+nav>ul{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+    padding: 2rem 0;
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+}
+
+.bg-pink{
+    background-color: var(--custompink);
+}
+
+.text-center{
+    text-align: center;
+}
+
+.first-section{
+    padding: 2rem;
+
+
+}
+.first-section>h1{
+    color: var(--custombrown);
+    font-weight: 600;
+    font-size: 2.5rem;
+    position: relative;
+    padding-bottom: 3rem;
+}
+
+.first-section>p{
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 26px;
+    max-width: 85rem;
+    text-align: center;
+}
+
+.first-section>img{
+    margin: auto;
+    margin-top: 2rem;
+}
+
+li{
+    list-style: none;
+    font-family: 'Playfair Display';
+    font-weight: 600;
+    padding: 0.3rem 0;
+}
+
+.active{
+    border-bottom: 2px solid #D4410E;
+}
+
+.split{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.second-section{
+    padding: 4rem;
+    justify-content: center;
+}
+
+.second-section>div>h1{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    max-width: 100%;
+    font-size: 2.5rem;
+}
+.second-section>div>p{
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    max-width: 90ch;
+    margin-bottom: 2rem;
+}
+
+.services{
+    padding: 0 4rem;
+}
+
+.services>h1{
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 5rem;
+    padding: 2.4rem 0;
+}
+
+.services>p{
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    font-weight: 400;
+    max-width: 90ch;
+    margin-inline: auto;
+    padding-bottom: 8.4rem;
+}
+
+.help-section>h1{
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    text-align: center;
+    padding: 4rem;
+    border-bottom: 0.5px solid #D0D0D0;
+
+}
+
+.help-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 3rem; 
+    padding-top: 3rem;
+
+}
+
+.help-item{
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    align-items: center;
+    padding: 1px;
+}
+
+.help-item>img{
+    width: 12.8rem;
+    height: 12.8rem;
+}
+.help-item>h3{
+    font-family: 'PT Serif';
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    color: #282828;  
+    width: 31ch;
+    text-align: center;
+}
+.help-item>p{
+    font-family: 'PT Serif';
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.8rem;
+    width: 29.5rem;
+    text-align: center;
+}
+
+
+footer{
+    padding: 4.6rem 0rem;
+}
+
+.media-img{
+    display: flex;
+    justify-content: center;
+}
+
+.media-img>img{
+    margin-left: 1.2rem;
+}
+
+.footer-brand{
+    margin: 5.2rem auto;
+}
+
+footer>div>p{
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 0 4rem;
+    text-align: center;
+    color: rgba(96, 96, 96, 0.75);
+}
+
+@media (min-width:760px){
+    /* testing code  */
+
+    .first-section{
+        padding: 4rem;
+    
+    
+    }
+    .first-section>h1{
+        color: var(--custombrown);
+        font-weight: 600;
+        font-size: 5rem;
+        position: relative;
+        padding-bottom: 3rem;
+    }
+    
+    .first-section>p{
+        font-family: 'PT Serif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        max-width: 85rem;
+        text-align: center;
+        margin-inline: auto;
+    }
+    
+    .first-section>img{
+        margin: auto;
+        margin-top: 4rem;
+    }
+    
+    .header{
+        margin-inline: auto;
+        width: max(20%,15em);
+        padding: 2em 0rem;
+    }
+    
+    .header>img{
+        width: 100%
+    
+    }
+    
+    .navbar{
+        border-top: 0.5px solid #D0D0D0;
+        padding-left: 2rem;
+    }
+    
+    
+    nav>ul{
+        display: flex;
+        flex-direction: column;
+        font-size: 1.8rem;
+        padding: 2rem 0;
+    }
+    
+    li{
+        list-style: none;
+        font-family: 'Playfair Display';
+        font-weight: 600;
+        padding: 0.3rem 0;
+    }
+    
+    .active{
+        border-bottom: 2px solid #D4410E;
+    }
+    
+    .split{
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+    
+    .second-section{
+        padding: 4rem;
+        justify-content: center;
+    }
+    
+    .second-section>div>h1{
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 400;
+        max-width: 14ch;
+        font-size: 4.2rem;
+    }
+    .second-section>div>p{
+        font-family: 'PT Serif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 2.8rem;
+        max-width: 90ch;
+        margin-bottom: 2rem;
+    }
+    
+    .services{
+        padding: 0 4rem;
+    }
+    
+    .services>h1{
+        font-size: 3.2rem;
+        font-weight: 400;
+        line-height: 5rem;
+        padding: 2.4rem 0;
+    }
+    
+    .services>p{
+        font-size: 1.6rem;
+        line-height: 2.8rem;
+        font-weight: 400;
+        max-width: 90ch;
+        margin-inline: auto;
+        padding-bottom: 8.4rem;
+    }
+    
+    .help-section>h1{
+        font-size: 4.2rem;
+        font-weight: 400;
+        line-height: 5.8rem;
+        text-align: center;
+        padding: 4rem;
+        border-bottom: 0.5px solid #D0D0D0;
+    
+    }
+    
+    .help-group{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    .help-item{
+        display: flex;
+        flex-direction: column;
+        gap: 2.4rem;
+        align-items: center;
+        padding: 1px;
+    }
+    .help-item>img{
+        width: 12.8rem;
+        height: 12.8rem;
+    }
+    .help-item>h3{
+        font-family: 'PT Serif';
+        font-weight: 700;
+        font-size: 1.8rem;
+        line-height: 2.3rem;
+        color: #282828;  
+        width: 31ch;
+        text-align: center;
+    }
+    .help-item>p{
+        font-family: 'PT Serif';
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 2.8rem;
+        width: 29.5rem;
+        text-align: center;
+    }
+    
+    
+    footer{
+        padding: 4.6rem 0rem;
+    }
+    
+    .media-img{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .media-img>img{
+        margin-left: 1.2rem;
+    }
+    
+    .footer-brand{
+        margin: 5.2rem auto;
+    }
+    
+    footer>div>p{
+        font-family: 'PT Serif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        padding: 0 4rem;
+        text-align: center;
+        color: rgba(96, 96, 96, 0.75);
+    }
+
+
+    /*  end of testing code*/
+    
+    
+    
+    .navbar{
+    padding: 3.3rem 2.9rem;
+    margin-left: 0px;
+    }
+    nav>ul{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .first-section h1{
+        position: relative;
+    }
+
+    .first-section p{
+
+        font-family: 'PT Serif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 32px;
+        text-align: center;
+        color: #282828;
+    }
+    li{
+        margin-left: 6rem;
+    }
+    .split{
+        flex-direction: row;
+    }
+    .help-group{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    } 
+    .help-item{
+        padding: 4rem;
+    }
+}
+
